@@ -1,11 +1,13 @@
 # Product Ratings Module - Frontend Assignment
 
 ## Overview
+
 - **Objective:** Build a React-based product rating module where users can rate products.
 - **Provided Boilerplate:** The project includes a boilerplate with a static products array already defined in `App.jsx`.
 - **Key Concepts:** Child-to-parent communication, state management, and UI interactivity using React Hooks and PropTypes.
 
 ## Project Setup
+
 - **Repository:** Start with the provided boilerplate code.
 - **File Structure:**
   - `App.jsx` – Contains the parent component and the static products array.
@@ -15,6 +17,7 @@
 ## Assignment Instructions
 
 ### 1. App Component (Parent)
+
 - **Responsibilities:**
   - **Use Provided Data:** Utilize the static products array already defined in `App.jsx`.
   - **State Management:**
@@ -33,6 +36,7 @@
     - Pass down the product data and the `handleRatingSubmit` callback to `ProductCard`.
 
 ### 2. ProductCard Component
+
 - **Responsibilities:**
   - **Display Product Info:**
     - Render the product image, name, description, and the current average rating (formatted to one decimal).
@@ -42,8 +46,8 @@
       - `productId` (from the product object)
       - `onRatingSubmit` (the callback function from the parent)
 
-
 ### 3. RatingWidget Component
+
 - **Responsibilities:**
   - **Interactive Rating UI:**
     - Display five clickable star icons (representing ratings 1 to 5).
@@ -58,8 +62,6 @@
       - Validate that the selected rating is between 1 and 5.
       - Invoke `onRatingSubmit` with the product id and the selected rating.
       - Reset the rating state after submission.
-
-
 
 # **How to Fork and Set Up Your Repository**
 
@@ -109,3 +111,5 @@
 
 If your GitHub username is `johnDoe` and the repository name is `assignment-repo`, the submission link would look like this:  
 **`https://github.com/johnDoe/assignment-repo`**
+
+Done
